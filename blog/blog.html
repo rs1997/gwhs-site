@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="/normalize.css" rel="stylesheet">
+  <style>
+    header {
+      text-align: center;
+      background: url('http://dash.ga.co/assets/jeff-bg.png');
+      background-size: cover;
+      color: white;
+    }
+    a {
+      color: white;
+    }
+    h1 {
+      font-size: 70px;
+    }
+    img {
+      margin: 40px 0px 0px 0px;
+      border: 7px solid white;
+      border-radius: 20px;
+    }
+    ul {
+      padding: 10px;
+      background: rgba(0,0,0,0.5);
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+    div {
+      max-width: 500px;
+      padding: 20px;
+      margin: 0 auto;
+    }
+    #fancy {
+      color:maroon;
+    }
+    #serious {
+      color:green;
+    }
+    #nike {
+        color:maroon;
+      }
+    #haha {
+      color:aqua;
+    }
+      .red {
+        color:red;
+      }
+      .orange {
+        color:orange;
+      }
+      .teal {
+        color:navy;
+      }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="http://www.tattooshunt.com/tattoos/sagittarius/page/46/"><img src="Images/sagittarius-bow-zodiac-tattoo-design.jpg" style="height:100px"></a>
+    <h1 id="haha">Michael's Blog</h1>
+    <ul>
+      <li><a class="red" href="Pages/page1.html">About Me</a></li>
+      <li><a class="orange" href="Pages/page2.html">Best Poems</a></li>
+      <li><a class="teal" href="Pages/page3.html">Worst Poems</a></li>
+    </ul>
+  </header>
+  <div>
+    <h2 id="nike">VHS umami pop-up trust fund</h2>
+    
+    <button id="fancy">Like</button>
+    <h2 id="serious">Sartorial synth Echo Park, roof party</h2>
+
+    <button>Like</button>
+    </div>
+  <script>
+    $("button").on("click", function() {
+      alert("Clicked!");
+    });
+  </script>
+  
+</body>
+</html>
